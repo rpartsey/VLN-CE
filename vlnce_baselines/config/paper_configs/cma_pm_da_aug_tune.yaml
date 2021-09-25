@@ -3,8 +3,8 @@ SIMULATOR_GPU_ID: 0
 TORCH_GPU_ID: 0
 NUM_PROCESSES: 1
 TENSORBOARD_DIR: data/tensorboard_dirs/cma_pm_da_aug_tune
-CHECKPOINT_FOLDER: data/checkpoints/cma_pm_da_aug_tune
-EVAL_CKPT_PATH_DIR: data/checkpoints/cma_pm_da_aug_tune
+CHECKPOINT_FOLDER: data/checkpoints
+EVAL_CKPT_PATH_DIR: data/checkpoints/CMA_PM_DA_Aug.pth
 
 EVAL:
   USE_CKPT_CONFIG: False
